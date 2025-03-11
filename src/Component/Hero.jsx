@@ -36,7 +36,7 @@ const Hero = () => {
         });
     }, []);
     return (
-        <section className="relative w-full md:h-auto h-[199vh] flex overflow-hidden">
+        <section className="relative w-full md:h-auto h-[190vh] flex overflow-hidden">
             {/* Full-width background image */}
             <div className="absolute inset-0 w-full   bg-gray-100">
                 <video
@@ -66,7 +66,7 @@ const Hero = () => {
                             </p>
 
                             <div className="flex flex-wrap gap-4 mb-10 ">
-                                <a href="#" className=" md:text-sm text-xs whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
+                                <a href="#" className=" md:text-sm text-[13px] whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
                                     Create Your Mini Website and Visiting Card
                                 </a>
                                 {/* <a href="#" className="bg-green-50 border border-green-200 hover:bg-green-100 text-gray-800 font-medium px-8 py-3 rounded-full transition duration-300">
