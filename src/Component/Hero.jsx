@@ -59,7 +59,7 @@ const Hero = () => {
                         <div className="bg-cream-50 rounded-3xl p-8 md:p-12 max-w-[89%] md:max-w-3xl shadow-lg bg-amber-50">
                             <h1 className="text-4xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
                                 Your Business Your Identity - Live in Just 2 Minute
-                            </h1>        
+                            </h1>
                             <p className="text-sm text-olive-700 mb-5 text-justify">
                                 Get Your Own Mini Website, Digital Visiting Card & Payment Collection – Instantly!
                                 <br />In today’s fast-paced world, having an online presence is a must for every business. But what if you could get your own mini website, digital visiting card, and payment collection system* – all within just 2 minutes? No coding, no technical skills, no hassle – just fill in your details and go live instantly!
@@ -69,7 +69,7 @@ const Hero = () => {
                                 <a href="#" className=" md:text-sm text-[10px] whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
                                     Create Your Mini Website and Visiting Card
                                 </a>
-                               
+
                             </div>
 
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-5">
@@ -87,12 +87,12 @@ const Hero = () => {
                         </div>
 
                         {/* Right side - Image */}
-                        <div className="rounded-3xl flex mt-10 md:mt-5 justify-center p-5 md:p-5   md:relative absolute md:bottom-0 bottom-0 md:right-5 right-10">
+                        <div className="rounded-3xl flex mt-10 md:mt-5 justify-center text-center p-5 md:p-5   md:relative absolute md:bottom-0 bottom-0 md:-right-10 right-5">
                             <div className="flex flex-col  md:flex-row gap-2  w-full">
                                 {/* Call & WhatsApp Buttons in a Single Row on Mobile */}
-                                <div className="flex flex-row sm:flex-row gap-20  sm:justify-center items-center w-full">
-                                    <a href="tel:+923055356766" className="w-full sm:w-auto">
-                                        <button className="md:text-sm text-xs flex items-center justify-center w-full sm:w-auto bg-orange-500 text-white px-2 md:px-5 py-3 rounded-full font-medium hover:shadow-lg transition duration-300">
+                                <div className="flex flex-row sm:flex-row md:gap-5 gap-5  sm:justify-center items-center w-full">
+                                    <a href="tel:+923055356766" className="w-full sm:w-auto ">
+                                        <button className="md:text-sm text-xs flex items-center justify-center w-full sm:w-auto bg-orange-500 text-white px-4 md:px-10 py-3 rounded-full font-medium hover:shadow-lg transition duration-300">
                                             <LuPhoneCall size={20} className="mr-2" />
                                             Call Us
                                         </button>
@@ -100,13 +100,13 @@ const Hero = () => {
                                     <a href="https://wa.me/923055356766" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                                         <button className="text-sm flex items-center justify-center w-full sm:w-auto bg-green-500 text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition duration-300 whitespace-nowrap">
                                             <BsWhatsapp size={20} className="mr-2" />
-                                            WhatsApp Us 
+                                            WhatsApp Us
                                         </button>
                                     </a>
                                 </div>
 
                                 {/* Create Your Mini Website Button in a Separate Row on Mobile */}
-                                <div className="flex md:justify-end justify-center w-full">
+                                <div className="flex md:justify-start justify-center w-full">
                                     <a href="https://miniwebx.com/" className="w-full sm:w-auto">
                                         <button className="flex items-center justify-center w-full sm:w-auto bg-blue-500 text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition duration-300">
                                             <IoCreateOutline size={20} className="mr-2" />
@@ -127,8 +127,8 @@ const Hero = () => {
                                         <h5 className="text-[12px] font-bold text-[#FF6900]">CEO & FOUNDER</h5>
                                         <div className="w-[79%] mt-[5px] h-[1px] bg-orange-500"></div>
                                         <p className="mt-[15px]">📞 +91 6203689042</p>
-                                        <p className="mt-[8px]">📧 hello@optimizaum.com</p>
-                                        <p className="mt-[8px] whitespace-nowrap">🌐 miniwebx.com</p>
+                                        <p className="mt-[8px]">📧 info@miniwebx.com</p>
+                                        <p className="mt-[8px] whitespace-nowrap">🌐 www.miniwebx.com</p>
                                         <p className="mt-[8px] ">📍Basement-2, A-40 Noida Sector-4, Uttar Pradesh 201301</p>
                                     </div>
                                     <div className="flex flex-col items-center justify-center">

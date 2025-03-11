@@ -8,10 +8,10 @@ const BestOptionSection = () => {
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-8">
                 {/* Left Content */}
                 <div>
-                    <h4 className="text-sm  font-semibold text-gray-700 uppercase tracking-wider text-center">
+                    <h4 className="text-sm  font-semibold text-gray-700 uppercase tracking-wider md:text-start text-center">
                         Who We Are <span className="text-green-600">〃</span>
                     </h4>
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 text-center">
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 md:text-start text-center">
                         About Us
                     </h2>
                     <p className="text-gray-600 mt-4 text-lg text-justify">
