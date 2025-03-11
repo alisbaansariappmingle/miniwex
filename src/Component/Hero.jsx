@@ -36,7 +36,7 @@ const Hero = () => {
         });
     }, []);
     return (
-        <section className="relative w-full md:h-auto h-[170vh] flex overflow-hidden">
+        <section className="relative w-full md:h-auto h-[199vh] flex overflow-hidden">
             {/* Full-width background image */}
             <div className="absolute inset-0 w-full   bg-gray-100">
                 <video
@@ -94,7 +94,7 @@ const Hero = () => {
                                 {/* Call & WhatsApp Buttons in a Single Row on Mobile */}
                                 <div className="flex flex-row sm:flex-row gap-6 sm:justify-center items-center w-full">
                                     <a href="tel:+923055356766" className="w-full sm:w-auto">
-                                        <button className="flex items-center justify-center w-full sm:w-auto bg-orange-500 text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition duration-300">
+                                        <button className="text-xs flex items-center justify-center w-full sm:w-auto bg-orange-500 text-white px-4 py-3 rounded-full font-medium hover:shadow-lg transition duration-300">
                                             <LuPhoneCall size={20} className="mr-2" />
                                             Call Us
                                         </button>
@@ -124,7 +124,7 @@ const Hero = () => {
                             <div ref={container} className="bg-white static right-[-47%] md:absolute top-[250px] flex items-center  rounded-[30px] h-[230px] w-full md:w-[45%] shadow-lg p-6 "
                                 style={{ background: `url(${backgroundImage})`, backgroundSize: "cover" }}>
                                 <div className=" text-gray-700 w-full flex">
-                                    <div>
+                                    <div className='text-sm'>
                                         <h1 className="text-md font-bold text-[#FF6900]">SRIRAM SINGH</h1>
                                         <h5 className="text-[12px] font-bold text-[#FF6900]">CEO & FOUNDER</h5>
                                         <div className="w-[79%] mt-[5px] h-[1px] bg-orange-500"></div>
