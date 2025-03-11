@@ -55,8 +55,8 @@ const Hero = () => {
             <div className="px-0 md:px-6  pt-32 md:pt-32 relative z-10">
                 <div className="flex-col md:flex-row items-center gap-x-15">
                     {/* Left side: Content card */}
-                    <div className='md:pr-5'>
-                        <div className="bg-cream-50 rounded-3xl p-8 md:p-12 max-w-[97%] md:max-w-3xl shadow-lg bg-amber-50">
+                    <div className='max-sm:flex max-sm:justify-center max-sm:items-center '>
+                        <div className="bg-cream-50 rounded-3xl p-8 md:p-12 max-w-[89%] md:max-w-3xl shadow-lg bg-amber-50">
                             <h1 className="text-4xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
                                 Your Business Your Identity - Live in Just 2 Minute
                             </h1>        
@@ -66,7 +66,7 @@ const Hero = () => {
                             </p>
 
                             <div className="flex flex-wrap gap-4 mb-10 ">
-                                <a href="#" className=" whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
+                                <a href="#" className=" md:text-sm text-xs whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
                                     Create Your Mini Website and Visiting Card
                                 </a>
                                 {/* <a href="#" className="bg-green-50 border border-green-200 hover:bg-green-100 text-gray-800 font-medium px-8 py-3 rounded-full transition duration-300">
@@ -118,11 +118,9 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-                    <div className="flex rounded-3xl items-center -left-[50px] p-5">
-                        <div className='pr-4 md:left-[-10px]'>
+                    <div className="flex rounded-3xl items-center -left-[50px] p-3 ">
+                        <div className='pr-4 left-[0px] md:left-[-10px]'>
                             <div ref={container} className="bg-white static right-[-47%] md:absolute top-[250px] flex items-center  rounded-[30px] h-[230px] w-full md:w-[45%] shadow-lg p-6 "
                                 style={{ background: `url(${backgroundImage})`, backgroundSize: "cover" }}>
                                 <div className=" text-gray-700 w-full flex">
@@ -131,8 +129,8 @@ const Hero = () => {
                                         <h5 className="text-[12px] font-bold text-[#FF6900]">CEO & FOUNDER</h5>
                                         <div className="w-[79%] mt-[5px] h-[1px] bg-orange-500"></div>
                                         <p className="mt-[15px]">📞 +91 6203689042</p>
-                                        <p className="mt-[8px]">📧 support@optimizaum.com</p>
-                                        <p className="mt-[8px] whitespace-nowrap">🌐 info@miniwebx.com</p>
+                                        <p className="mt-[8px]">📧 hello@optimizaum.com</p>
+                                        <p className="mt-[8px] whitespace-nowrap">🌐 miniwebx.com</p>
                                         <p className="mt-[8px] ">📍Basement-2, A-40 Noida Sector-4, Uttar Pradesh 201301</p>
                                     </div>
                                     <div className="flex flex-col items-center justify-center">
