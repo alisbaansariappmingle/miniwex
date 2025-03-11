@@ -87,12 +87,12 @@ const Hero = () => {
                         </div>
 
                         {/* Right side - Image */}
-                        <div className="rounded-3xl flex mt-10 md:mt-5 justify-center p-5 md:p-5 pl-2  md:relative absolute md:bottom-0 bottom-0 md:right-5 right-6">
+                        <div className="rounded-3xl flex mt-10 md:mt-5 justify-center p-5 md:p-5   md:relative absolute md:bottom-0 bottom-0 md:right-5 right-6">
                             <div className="flex flex-col  md:flex-row gap-2  w-full">
                                 {/* Call & WhatsApp Buttons in a Single Row on Mobile */}
-                                <div className="flex flex-row sm:flex-row gap-6 sm:justify-center items-center w-full">
+                                <div className="flex flex-row sm:flex-row gap-20  sm:justify-center items-center w-full">
                                     <a href="tel:+923055356766" className="w-full sm:w-auto">
-                                        <button className="text-xs flex items-center justify-center w-full sm:w-auto bg-orange-500 text-white px-4 py-3 rounded-full font-medium hover:shadow-lg transition duration-300">
+                                        <button className="md:text-sm text-xs flex items-center justify-center w-full sm:w-auto bg-orange-500 text-white px-5 py-3 rounded-full font-medium hover:shadow-lg transition duration-300">
                                             <LuPhoneCall size={20} className="mr-2" />
                                             Call Us
                                         </button>
@@ -106,7 +106,7 @@ const Hero = () => {
                                 </div>
 
                                 {/* Create Your Mini Website Button in a Separate Row on Mobile */}
-                                <div className="flex md:justify-start justify-center w-full">
+                                <div className="flex md:justify-end justify-center w-full">
                                     <a href="https://miniwebx.com/" className="w-full sm:w-auto">
                                         <button className="flex items-center justify-center w-full sm:w-auto bg-blue-500 text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition duration-300">
                                             <IoCreateOutline size={20} className="mr-2" />
