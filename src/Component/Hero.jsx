@@ -69,9 +69,7 @@ const Hero = () => {
                                 <a href="#" className=" md:text-sm text-[10px] whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
                                     Create Your Mini Website and Visiting Card
                                 </a>
-                                {/* <a href="#" className="bg-green-50 border border-green-200 hover:bg-green-100 text-gray-800 font-medium px-8 py-3 rounded-full transition duration-300">
-                        Our Services
-                    </a> */}
+                               
                             </div>
 
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-5">
@@ -89,7 +87,7 @@ const Hero = () => {
                         </div>
 
                         {/* Right side - Image */}
-                        <div className="rounded-3xl flex mt-10 md:mt-5 justify-center p-5 md:p-5 pl-2  md:relative absolute md:bottom-0 bottom-0 md:right-5 right-12">
+                        <div className="rounded-3xl flex mt-10 md:mt-5 justify-center p-5 md:p-5 pl-2  md:relative absolute md:bottom-0 bottom-0 md:right-5 right-6">
                             <div className="flex flex-col  md:flex-row gap-2  w-full">
                                 {/* Call & WhatsApp Buttons in a Single Row on Mobile */}
                                 <div className="flex flex-row sm:flex-row gap-6 sm:justify-center items-center w-full">
@@ -120,7 +118,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="flex rounded-3xl items-center -left-[50px] p-3 ">
-                        <div className='pr-4 left-[0px] md:left-[-10px]'>
+                        <div className='pr-0 md:pr-4 left-[0px] md:left-[-10px]'>
                             <div ref={container} className="bg-white static right-[-47%] md:absolute top-[250px] flex items-center  rounded-[30px] h-[230px] w-full md:w-[45%] shadow-lg p-6 "
                                 style={{ background: `url(${backgroundImage})`, backgroundSize: "cover" }}>
                                 <div className=" text-gray-700 w-full flex">

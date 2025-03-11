@@ -12,8 +12,6 @@ const Header = () => {
                 </a>
             </div>
 
-
-
             {/* Call to Action Button */}
             <div className=" lg:block">
                 <button className="bg-gradient-to-r from-green-500 to-teal-500 text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transition duration-300">
