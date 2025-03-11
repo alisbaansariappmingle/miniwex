@@ -36,7 +36,7 @@ const Hero = () => {
         });
     }, []);
     return (
-        <section className="relative w-full md:h-auto h-[190vh] flex overflow-hidden">
+        <section className="relative w-full md:h-auto h-[170vh] flex overflow-hidden">
             {/* Full-width background image */}
             <div className="absolute inset-0 w-full   bg-gray-100">
                 <video
