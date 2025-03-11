@@ -32,10 +32,8 @@ const Footer = () => {
                 </p>
             </div>
 
-
             {/* Divider */}
             <div className="border-t border-gray-700 my-2"></div>
-
             <div className="text-center">
                 <p className="text-gray-400 text-sm">© 2025 <a href="https://miniwebx.com" className="hover:text-yellow-500">MiniWebX</a>, Powered by
                     <a href="https://optimizaum.com/" className="text-yellow-500 font-semibold ml-1">Optimizaum.com</a>

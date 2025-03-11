@@ -3,8 +3,8 @@ import { SiWhatsapp } from "react-icons/si";
 import man from "../assets/man.jpg";
 
 const BestOptionSection = () => {
-  return (
-    <section className="bg-[#f5f7ed] px-6 py-12 md:px-16 md:py-16 rounded-3xl">
+    return (
+        <section className="bg-[#f5f7ed] px-6 py-12 md:px-16 md:py-16 rounded-3xl">
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-8">
                 {/* Left Content */}
                 <div>
@@ -77,7 +77,7 @@ const BestOptionSection = () => {
                 </div>
             </div>
         </section>
-  )
+    )
 }
 
 export default BestOptionSection
