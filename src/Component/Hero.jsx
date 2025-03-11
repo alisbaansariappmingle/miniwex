@@ -66,7 +66,7 @@ const Hero = () => {
                             </p>
 
                             <div className="flex flex-wrap gap-4 mb-10 ">
-                                <a href="#" className=" md:text-sm text-[13px] whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
+                                <a href="#" className=" md:text-sm text-[10px] whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
                                     Create Your Mini Website and Visiting Card
                                 </a>
                                 {/* <a href="#" className="bg-green-50 border border-green-200 hover:bg-green-100 text-gray-800 font-medium px-8 py-3 rounded-full transition duration-300">
@@ -89,7 +89,7 @@ const Hero = () => {
                         </div>
 
                         {/* Right side - Image */}
-                        <div className="rounded-3xl flex mt-10 md:mt-5 justify-center p-5 md:p-5 pl-[8px] md:relative absolute md:bottom-0 bottom-0 md:right-5 right-12">
+                        <div className="rounded-3xl flex mt-10 md:mt-5 justify-center p-5 md:p-5 pl-2  md:relative absolute md:bottom-0 bottom-0 md:right-5 right-12">
                             <div className="flex flex-col  md:flex-row gap-2  w-full">
                                 {/* Call & WhatsApp Buttons in a Single Row on Mobile */}
                                 <div className="flex flex-row sm:flex-row gap-6 sm:justify-center items-center w-full">

@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
 
             {/* Address Section */}
-            <div className="flex flex-wrap md:flex-row items-center items-start md:justify-center whitespace-nowrap text-left md:text-center mt-4 gap-2 md:gap-3">
+            <div className="flex  md:flex-row items-center items-start md:justify-center  text-left md:text-center mt-4 gap-2 md:gap-3 ">
                 <GrLocation className="text-gray-500 text-lg" />
                 <p className="text-sm text-xs md:font-thin ">
                     Address: Basement-2, A-40 Noida Sector-4, Uttar Pradesh 201301
