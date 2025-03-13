@@ -65,12 +65,16 @@ const Hero = () => {
                                 <br />In today’s fast-paced world, having an online presence is a must for every business. But what if you could get your own mini website, digital visiting card, and payment collection system* – all within just 2 minutes? No coding, no technical skills, no hassle – just fill in your details and go live instantly!
                             </p>
 
-                            <div className="flex flex-wrap gap-4 mb-10 ">
-                                <a href="#" className=" md:text-sm text-[10px] whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
+                            <div className="flex flex-wrap  gap-4 mb-10">
+                                <a href="#" className="md:text-sm text-[10px] whitespace-nowrap bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
                                     Create Your Mini Website and Visiting Card
                                 </a>
 
+                                <a href="#" className="md:text-sm text-[10px] text-white whitespace-nowrap bg-green-600 hover:bg-yellow-500 text-gray-900 font-medium px-8 py-3 rounded-full transition duration-300">
+                                    Create Visiting Card
+                                </a>
                             </div>
+
 
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-5">
                                 {["Services", "Gallery", "Payment Collection", "Digital Visiting Card", "Lead Form", "Address", "Call Button", "Whatsapp Button", "Social Media"].map((text, index) => (
